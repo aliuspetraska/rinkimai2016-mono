@@ -1,6 +1,10 @@
 ﻿<Properties StartupConfiguration="{E43C0BA2-340F-489C-B8FB-81B018AE2316}|Default">
   <MonoDevelop.Ide.ItemProperties.BackgroundWorker PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench />
+  <MonoDevelop.Ide.Workbench ActiveDocument="BackgroundWorker/Program.cs">
+    <Files>
+      <File FileName="BackgroundWorker/Program.cs" Line="104" Column="5" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|x86" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore>
