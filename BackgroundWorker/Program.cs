@@ -109,6 +109,12 @@ namespace BackgroundWorker
 
 		public static void InsertAntroTuroKandidataiVienmandatese()
 		{
+			MySqlCommand truncate = connection.CreateCommand();
+
+			truncate.CommandText = "TRUNCATE TABLE dalyvaus_pakartotiniame;";
+
+			truncate.ExecuteNonQuery();
+
 			foreach (var item in _RezultataiVienmVrtObject.data.dalyvausPakartotiniame)
 			{
 				MySqlCommand command = connection.CreateCommand();
