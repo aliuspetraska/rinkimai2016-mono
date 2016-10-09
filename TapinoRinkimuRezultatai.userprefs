@@ -1,8 +1,9 @@
 ﻿<Properties StartupConfiguration="{E43C0BA2-340F-489C-B8FB-81B018AE2316}|Default">
   <MonoDevelop.Ide.ItemProperties.BackgroundWorker PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="BackgroundWorker/Helpers/Data.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="BackgroundWorker/Program.cs">
     <Files>
       <File FileName="BackgroundWorker/Helpers/Data.cs" Line="15" Column="27" />
+      <File FileName="BackgroundWorker/Program.cs" Line="28" Column="5" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|x86" />

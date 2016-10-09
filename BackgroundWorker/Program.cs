@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Threading;
 using MySql.Data.MySqlClient;
 
 namespace BackgroundWorker
@@ -100,6 +101,9 @@ namespace BackgroundWorker
 						connection.Close();
 					}
 				}
+
+				// Sleep for 30 seconds
+				Thread.Sleep(30000);
 			}
 		}
 
