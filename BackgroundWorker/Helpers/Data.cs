@@ -30,9 +30,9 @@ namespace BackgroundWorker
 
 		public static RezultataiDaugmVrtObject GetRezultataiDaugmVrtObject()
 		{
-			// http://itree-www.vrk.lt/statiniai/puslapiai/rinkimai/102/1/1304/rezultatai/rezultataiDaugmVrt.json
+			// http://www.vrk.lt/statiniai/puslapiai/rinkimai/102/1/1304/rezultatai/rezultataiDaugmVrt.json
 
-			var client = new RestClient("http://itree-www.vrk.lt/statiniai/puslapiai/rinkimai/102/1/");
+			var client = new RestClient("http://www.vrk.lt/statiniai/puslapiai/rinkimai/102/1/");
 			var request = new RestRequest("1304/rezultatai/rezultataiDaugmVrt.json", Method.GET);
 			var response = client.Execute(request);
 
@@ -41,9 +41,9 @@ namespace BackgroundWorker
 
 		public static RezultataiDaugmRpgObject GetRezultataiDaugmRpgObject(string rpg_id)
 		{
-			// http://itree-www.vrk.lt/statiniai/puslapiai/rinkimai/102/1/1304/rezultatai/rezultataiDaugmRpg18734.json
+			// http://www.vrk.lt/statiniai/puslapiai/rinkimai/102/1/1304/rezultatai/rezultataiDaugmRpg18734.json
 
-			var client = new RestClient("http://itree-www.vrk.lt/statiniai/puslapiai/rinkimai/102/1/");
+			var client = new RestClient("http://www.vrk.lt/statiniai/puslapiai/rinkimai/102/1/");
 			var request = new RestRequest("1304/rezultatai/rezultataiDaugmRpg{id}.json", Method.GET);
 			request.AddUrlSegment("id", rpg_id);
 			var response = client.Execute(request);
@@ -53,9 +53,9 @@ namespace BackgroundWorker
 
 		public static RezultataiVienmVrtObject GetRezultataiVienmVrtObject()
 		{
-			// http://itree-www.vrk.lt/statiniai/puslapiai/rinkimai/102/1/1304/rezultatai/rezultataiVienmVrt.json
+			// http://www.vrk.lt/statiniai/puslapiai/rinkimai/102/1/1304/rezultatai/rezultataiVienmVrt.json
 
-			var client = new RestClient("http://itree-www.vrk.lt/statiniai/puslapiai/rinkimai/102/1/");
+			var client = new RestClient("http://www.vrk.lt/statiniai/puslapiai/rinkimai/102/1/");
 			var request = new RestRequest("1304/rezultatai/rezultataiVienmVrt.json", Method.GET);
 			var response = client.Execute(request);
 
@@ -64,9 +64,9 @@ namespace BackgroundWorker
 
 		public static RezultataiDaugmRpgObject GetRezultataiDaugmRpgUzsienisObject()
 		{
-			// http://itree-www.vrk.lt/statiniai/puslapiai/rinkimai/102/1/1304/rezultatai/rezultataiDaugmRpgUzsienis.json
+			// http://www.vrk.lt/statiniai/puslapiai/rinkimai/102/1/1304/rezultatai/rezultataiDaugmRpgUzsienis.json
 
-			var client = new RestClient("http://itree-www.vrk.lt/statiniai/puslapiai/rinkimai/102/1/");
+			var client = new RestClient("http://www.vrk.lt/statiniai/puslapiai/rinkimai/102/1/");
 			var request = new RestRequest("1304/rezultatai/rezultataiDaugmRpgUzsienis.json", Method.GET);
 			var response = client.Execute(request);
 

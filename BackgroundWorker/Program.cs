@@ -32,13 +32,13 @@ namespace BackgroundWorker
 					// http://www.vrk.lt/statiniai/puslapiai/rinkimai/102/1/rpg.json
 					_RpgObject = Data.GetRpgObject();
 
-					// http://itree-www.vrk.lt/statiniai/puslapiai/rinkimai/102/1/aktyvumas/aktyvumasVrt.json
+					// http://www.vrk.lt/statiniai/puslapiai/rinkimai/102/1/aktyvumas/aktyvumasVrt.json
 					_AktyvumasVrtObject = Data.GetAktyvumasVrtObject();
 
-					// http://itree-www.vrk.lt/statiniai/puslapiai/rinkimai/102/1/1304/rezultatai/rezultataiDaugmVrt.json
+					// http://www.vrk.lt/statiniai/puslapiai/rinkimai/102/1/1304/rezultatai/rezultataiDaugmVrt.json
 					_RezultataiDaugmVrtObject = Data.GetRezultataiDaugmVrtObject();
 
-					// http://itree-www.vrk.lt/statiniai/puslapiai/rinkimai/102/1/1304/rezultatai/rezultataiVienmVrt.json
+					// http://www.vrk.lt/statiniai/puslapiai/rinkimai/102/1/1304/rezultatai/rezultataiVienmVrt.json
 					_RezultataiVienmVrtObject = Data.GetRezultataiVienmVrtObject();
 				}
 				catch (Exception ex)
