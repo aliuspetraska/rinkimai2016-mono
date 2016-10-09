@@ -102,8 +102,8 @@ namespace BackgroundWorker
 					}
 				}
 
-				// Sleep for 5 minutes
-				Thread.Sleep(5 * 60 * 1000);
+				// Sleep for 1 minute
+				Thread.Sleep(1 * 60 * 1000);
 			}
 		}
 
